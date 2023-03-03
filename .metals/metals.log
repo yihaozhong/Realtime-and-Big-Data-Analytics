@@ -58,3 +58,493 @@ Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.s
 	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
 	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
 	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:23:43 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/MaxTemp_WordCount/Souce Code/MaxTemperature.java
+2023.03.03 15:23:44 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/MaxTemp_WordCount/Souce%20Code/MaxTemperature.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:23:47 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/MaxTemp_WordCount/Souce Code/MaxTemperatureReducer.java
+2023.03.03 15:23:48 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/MaxTemp_WordCount/Souce%20Code/MaxTemperatureReducer.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:23:49 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/MaxTemp_WordCount/Souce Code/MaxTemperatureMapper.java
+2023.03.03 15:23:49 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/MaxTemp_WordCount/Souce%20Code/MaxTemperatureMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+Mar 03, 2023 3:23:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 83
+2023.03.03 15:23:55 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:23:56 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:23:59 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:23:59 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:24:01 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:24:02 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:24:06 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:24:06 WARN  Using indexes to guess the definition of MaxTemperatureMapper
+2023.03.03 15:24:18 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:24:19 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:24:24 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/MaxTemp_WordCount/Souce Code/MaxTemperatureMapper.java
+2023.03.03 15:24:27 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/MaxTemp_WordCount/Souce Code/MaxTemperature.java
+2023.03.03 15:24:31 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRank.java
+2023.03.03 15:24:33 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRank.java
+2023.03.03 15:24:33 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRank.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:24:35 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRank.java
+2023.03.03 15:24:36 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRank.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:24:37 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/MaxTemp_WordCount/Souce Code/MaxTemperatureReducer.java
+2023.03.03 15:24:42 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankReducer.java
+2023.03.03 15:24:42 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankReducer.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:24:43 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankReducer.java
+2023.03.03 15:24:44 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankReducer.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:24:44 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankReducer.java
+2023.03.03 15:24:46 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankReducer.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:24:57 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:24:58 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:25:00 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:25:00 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:25:10 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:25:11 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:25:20 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankReducer.java
+2023.03.03 15:25:20 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankReducer.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:25:22 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankReducer.java
+2023.03.03 15:25:22 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankReducer.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:25:26 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRank.java
+2023.03.03 15:25:27 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRank.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:25:29 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRank.java
+2023.03.03 15:25:30 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRank.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:25:32 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRank.java
+2023.03.03 15:25:32 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRank.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:25:34 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRank.java
+2023.03.03 15:25:35 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRank.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:25:36 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRank.java
+2023.03.03 15:25:37 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRank.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:25:38 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRank.java
+2023.03.03 15:25:39 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRank.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:25:59 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:26:00 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:31:46 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:31:47 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:31:50 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:31:51 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:31:52 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:31:53 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+Mar 03, 2023 3:31:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 501
+2023.03.03 15:32:00 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:32:01 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:32:02 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:32:03 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:32:04 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:32:05 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:32:10 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:32:11 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:32:51 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:32:51 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:32:54 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:32:54 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:33:07 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:33:08 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:33:14 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:33:14 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:33:20 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:33:21 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:33:24 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:33:25 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:34:12 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:34:12 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:34:14 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:34:14 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:34:38 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:34:39 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:42:51 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:42:52 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:42:55 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:42:56 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:43:06 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:43:07 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:43:13 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:43:14 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:43:34 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:43:35 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:43:37 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:43:37 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:43:48 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:43:49 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.03 15:44:08 WARN  no build target for: /Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java
+2023.03.03 15:44:09 WARN  Running javac-semanticdb failed for file:///Users/zhongyihao/Desktop/Realtime-and-Big-Data-Analytics/PageRank/pageRankMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
