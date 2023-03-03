@@ -12,16 +12,32 @@ public static void main(String[] args) throws Exception {
       System.err.println("Usage: pageRank <input path> <output path>");
       System.exit(-1);
     }
-    Job job = Job.getInstance(); 
-    job.setJarByClass(pageRank.class); 
-    job.setJobName("Max temperature");
-    job.setNumReduceTasks(1); // 1 Reduce task
-    FileInputFormat.addInputPath(job, new Path(args[0])); 
-    FileOutputFormat.setOutputPath(job, new Path(args[1]));
-    job.setMapperClass(pageRankMapper.class);
-    job.setCombinerClass(pageRankReducer.class);
-    job.setReducerClass(pageRankReducer.class);
-    job.setOutputKeyClass(Text.class);
-    job.setOutputValueClass(IntWritable.class);
-    System.exit(job.waitForCompletion(true) ? 0 : 1); }
+
+    for(int i = 0; i<3; i++){
+        Job job = Job.getInstance(); 
+        job.setJarByClass(pageRank.class); 
+        job.setJobName("Page Rank");
+        job.setNumReduceTasks(1); // 1 Reduce task
+
+        if(i == 0){
+            FileInputFormat.addInputPath(job, new Path(args[0])); 
+            FileOutputFormat.setOutputPath(job, new Path("lab3/output"+ i));
+        }
+        else if(i == 1){
+            FileInputFormat.addInputPath(job, new Path("lab3/output"+ (i-1))); 
+            FileOutputFormat.setOutputPath(job, new Path("lab3/output"+ i));
+        }
+        else{
+            FileInputFormat.addInputPath(job, new Path("lab3/output"+ (i-1))); 
+            FileOutputFormat.setOutputPath(job, new Path(args[1]));
+        }
+
+
+        job.setMapperClass(pageRankMapper.class);
+        job.setCombinerClass(pageRankReducer.class);
+        job.setReducerClass(pageRankReducer.class);
+        job.setOutputKeyClass(Text.class);
+        job.setOutputValueClass(Text.class);
+        System.exit(job.waitForCompletion(true) ? 0 : 1); }
+    }
 }
