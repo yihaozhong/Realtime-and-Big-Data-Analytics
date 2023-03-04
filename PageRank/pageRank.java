@@ -1,5 +1,6 @@
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.NullWritable; 
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat; 
@@ -34,10 +35,11 @@ public static void main(String[] args) throws Exception {
 
 
         job.setMapperClass(pageRankMapper.class);
-        job.setCombinerClass(pageRankReducer.class);
+        // job.setCombinerClass(pageRankReducer.class);
         job.setReducerClass(pageRankReducer.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(Text.class);
-        System.exit(job.waitForCompletion(true) ? 0 : 1); }
+        job.waitForCompletion(true);
+ }
     }
 }

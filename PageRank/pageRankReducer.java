@@ -1,25 +1,29 @@
 import java.io.IOException;
-import org.apache.hadoop.io.IntWritable; import org.apache.hadoop.io.Text;
+import org.apache.hadoop.io.NullWritable; 
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
 public class pageRankReducer
-extends Reducer<Text, IntWritable, Text, IntWritable> {
+extends Reducer<Text, Text, NullWritable, Text> {
 @Override
-public void reduce(Text key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
+public void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
     double score = 0;
-    String adj = "";
+    String rest = "";
     
-    for (Writable value : values) {
-        if (value instanceof DoubleWritable) {
-            score += ((DoubleWritable) value).get();
-        } else if (value instanceof Text) {
-            adj = value.toString();
-        }
+    // loop and sum up the page rank
+
+    for (Text value : values) {
+        try {  
+            score += Double.parseDouble(value.toString());  
+          } 
+        catch(Exception e){  
+            rest = value.toString();
+          }  
+
     }
-    
-    String output = key.toString() + " " + adj + score;
-    
-    context.write(NullWritable.get(), new Text(output));
+
+    // write the long string output
+    context.write(NullWritable.get(), new Text(key + " " + rest + score));
       
     }
 }
