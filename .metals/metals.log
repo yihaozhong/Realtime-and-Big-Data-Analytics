@@ -6318,3 +6318,6 @@ Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.s
 	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
 	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
 	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.03.05 14:31:21 INFO  Shutting down server
+2023.03.05 14:31:21 INFO  shutting down Metals
+2023.03.05 14:31:21 INFO  Exiting server
